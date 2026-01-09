@@ -38,7 +38,7 @@ This repository uses **GNU Stow** to manage symlinks. Instead of manually copyin
 </p>
 
 ## 🤝 Credits
-- Base configuration and logic inspired by [kikefdezl's dotfiles](https://github.com/kikefdezl/dotfiles).
+- Base configuration and logic inspired by kikefdezl's dotfiles.
 - Built on [Garuda Linux](https://garudalinux.org/).
 - Icons powered by [Nerd Fonts](https://www.nerdfonts.com/).
 - **AI Assistant**: Developed and refined with the help of **Google Gemini**, who assisted in troubleshooting the Waybar network modules, Git configuration, and README documentation.
