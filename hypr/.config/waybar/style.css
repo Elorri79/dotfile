@@ -1,0 +1,56 @@
+/* Elimina cualquier estilo previo y pega esto */
+window#waybar {
+    background: rgba(46, 52, 64, 0.9); /* Color Nord oscuro con transparencia */
+    border: 2px solid rgba(136, 192, 208, 0.5); /* Borde azul claro sutil */
+    border-radius: 12px;
+    color: #eceff4;
+    font-family: "JetBrainsMono Nerd Font", "Roboto", "sans-serif";
+    font-size: 14px;
+}
+
+/* Estilo para los espacios de trabajo (izquierda) */
+#workspaces button {
+    padding: 0 10px;
+    color: #81a1c1;
+}
+
+#workspaces button.active {
+    color: #88c0d0;
+    border-bottom: 2px solid #88c0d0;
+}
+
+/* Estilo para los módulos de la derecha */
+#clock, #battery, #pulseaudio, #tray {
+    padding: 0 15px;
+    margin: 4px 0;
+    background: rgba(59, 66, 82, 0.8);
+    border-radius: 8px;
+    margin-left: 8px;
+}
+
+#clock {
+    color: #ebcb8b; /* Amarillo Nord */
+}
+
+#battery {
+    color: #a3be8c; /* Verde Nord */
+}
+
+#custom-power {
+    color: #bf616a; 
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 20px; /* Aumenta esto para separarlo del borde físico del monitor */
+    margin-right: 10px;  /* Esto añade un espacio extra de seguridad */
+}
+
+/* También asegúrate de que el tray no esté empujando todo */
+#tray {
+    margin-right: 10px;
+}
+
+#window {
+    margin: 0 15px;
+    font-weight: bold;
+    color: #88c0d0; /* Un color azulado tipo Nordic */
+}
