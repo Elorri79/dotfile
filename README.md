@@ -20,9 +20,6 @@ A personalized, minimal, and dark-themed Hyprland configuration. Built for effic
 
 This repository uses **GNU Stow** to manage symlinks. Instead of manually copying files to `~/.config`, Stow creates "mirrors" of these folders into your home directory.
 
-## Why a `.sh` file?
-The `stow.sh` (or similarly named script) is a helper that automates the linking process. If you are new to this:
-- **What it does**: It tells the system "Hey, the real Waybar config is in `~/.dotfiles/waybar`, but act as if it were in `~/.config/waybar`".
 - **How to use it**: 
   ```bash
   cd ~/.dotfiles
