@@ -21,4 +21,8 @@ ln -sf "$DOTFILES_DIR/initial-setup.sh" ~/.config/autostart/initial-setup.sh
 ln -sf "$DOTFILES_DIR/zsh/.zshrc" ~/.zshrc
 ln -sf "$DOTFILES_DIR/tmux/.tmux.conf" ~/.tmux.conf
 
+# Añade estas líneas junto a las otras de ln -sf
+ln -sf "$DOTFILES_DIR/config/fish" ~/.config/
+ln -sf "$DOTFILES_DIR/config/swww" ~/.config/
+
 echo "¡Hecho! Tu sistema está configurado."
