@@ -11,12 +11,12 @@ if status is-interactive
     # sudo pacman -S bat
     alias cat='bat'
 
-    # 4. Reemplazos de LS (usando eza para iconos y colores)
-    # sudo pacman -S eza
-    alias ls='eza --icons --group-directories-first'
+# 4. Reemplazos de LS (usando eza para iconos y colores)
+    # Cambiamos 'ls' para que sea más informativo (como el ll que querías)
+    alias ls='eza -l --icons --group-directories-first'
     alias ll='eza -l --icons --group-directories-first --git'
-    alias la='eza -a --icons --group-directories-first'
-
+    alias la='eza -la --icons --group-directories-first' # Lista todo, incluso ocultos
+    
     # 5. Otros alias útiles
     alias wall='wall'
     alias gs='git status'
