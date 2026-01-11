@@ -1,0 +1,5 @@
+# Ignorar bloqueos de plugins de Neovim
+config/nvim/lazy-lock.json
+
+# Ignorar el histórico de Antigravity/VSCode
+config/Antigravity/User/History/

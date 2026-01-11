@@ -22,8 +22,8 @@ This repository uses **GNU Stow** to manage symlinks. Instead of manually copyin
 
 - **How to use it**: 
   ```bash
-  cd ~/.dotfiles
-  stow . # This links everything to your home directory
+  cd ~/github-projects/dotfile
+  stow -t ~ config/ # Esto enlaza el contenido de /config a ~/.config
 
 ## 📸 Preview
 
