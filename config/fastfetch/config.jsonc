@@ -1,0 +1,54 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+        "source": "/home/elorri/github-projects/dotfile/wallpapers/L.png",
+        "type": "kitty-direct",
+        "width": 28,
+        "height": 12,
+        "padding": {
+            "top": 2,
+            "left": 2
+        }
+    },
+    "display": {
+        "separator": " ➜  "
+    },
+    "modules": [
+        "title",
+        "separator",
+        {
+            "type": "os",
+            "key": "󰣇 OS"
+        },
+        {
+            "type": "kernel",
+            "key": ""
+        },
+        {
+            "type": "uptime",
+            "key": "󰅐"
+        },
+        {
+            "type": "packages",
+            "key": "󰏖"
+        },
+        {
+            "type": "shell",
+            "key": ""
+        },
+        {
+            "type": "wm",
+            "key": ""
+        },
+        {
+            "type": "terminal",
+            "key": ""
+        },
+        {
+            "type": "memory",
+            "key": "󰍛"
+        },
+        "break",
+        "colors"
+    ]
+}
