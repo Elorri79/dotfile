@@ -7,7 +7,7 @@
     "spacing": 5,
     "modules-left": ["hyprland/workspaces", "hyprland/window"],
     "modules-center": ["clock"],
-    "modules-right": ["cpu", "memory", "tray", "backlight", "pulseaudio", "network", "battery"],
+    "modules-right": ["cpu", "memory", "tray", "backlight", "pulseaudio", "network", "battery", "custom/power"],
 
     "hyprland/workspaces": {
         "format": "{name}",
@@ -65,4 +65,10 @@
         "separate-outputs": true,
         "max-length": 50
     },
+
+    "custom/power": {
+        "format": "⏻",
+        "on-click": "wlogout",
+        "tooltip": false
+    }
 }
