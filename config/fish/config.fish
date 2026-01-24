@@ -21,3 +21,4 @@ if status is-interactive
     alias wall='wall'
     alias gs='git status'
 end
+export PATH="$HOME/.local/bin:$PATH"
