@@ -18,7 +18,6 @@ if status is-interactive
     alias la='eza -la --icons --group-directories-first' # Lista todo, incluso ocultos
     
     # 5. Otros alias útiles
-    alias wall='wall'
     alias gs='git status'
 end
 export PATH="$HOME/.local/bin:$PATH"

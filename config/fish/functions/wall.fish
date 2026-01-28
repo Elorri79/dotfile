@@ -1,1 +1,0 @@
-/home/elorri/github-projects/dotfile/config/fish/functions/wall.fish
